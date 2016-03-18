@@ -1,0 +1,67 @@
+html {
+ background: #000000;
+ background-size:100px 100px;
+    
+}
+
+#gryffindor{
+       background: linear-gradient(45deg,#ae0001,#ae0001 25%,#eeba30 25%, #eeba30 50%,#ae0001 50%,#ae0001 75%,#eeba30 75%);
+    background-size:100px 100px;
+}
+
+#slytherin{
+       background: linear-gradient(45deg,#154C07,#154C07 25%,#aaaaaa 25%, #aaaaaa 50%,#154C07 50%,#154C07 75%,#aaaaaa 75%);
+    background-size:100px 100px;
+}
+#ravenclaw{
+      background: linear-gradient(45deg,#071A80,#071A80 25%,#5d5d5d 25%, #5d5d5d 50%,#071A80 50%,#071A80 75%,#5d5d5d 75%);
+    background-size:100px 100px;
+}
+#hufflepuff{
+       background: linear-gradient(45deg,#F1F31C,#F1F31C 25%,#000000 25%, #000000 50%,#F1F31C 50%,#F1F31C 75%,#000000 75%);
+        background-size:100px 100px;
+}
+#header{
+    text-align: center;
+    font-size: 100%;
+    display: inline-block;
+}
+
+h1{
+    color: white;
+    font-family: fantasy;
+}
+h2{
+    color:white;
+    font-family: fantasy;
+}
+#song{
+    text-align: center;
+    padding: 5px;
+    font-size: 100%;
+}
+p{
+    color:white;
+    font-family: fantasy;
+    font-size:150%;
+}
+#input{
+    color: white;
+    font-family: fantasy;
+    float: center;
+    text-align: center;
+}
+form{
+    font-family: fantasy;
+    font-size: 200%;
+}
+button{
+    background-color:#F1F31C;
+    border: none;
+    height:40px;
+    font-family: fantasy;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 5px;
+}
