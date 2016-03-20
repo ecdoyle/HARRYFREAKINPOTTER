@@ -1,0 +1,18 @@
+### Mine ###
+keys.js
+
+### NetBeans ###
+src/
+nbproject/
+build/
+build.xml
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
+
+### Additional ###
+web/WEB-INF/
+
+
