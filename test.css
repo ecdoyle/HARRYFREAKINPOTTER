@@ -40,6 +40,12 @@ h2{
     padding: 5px;
     font-size: 100%;
 }
+#tags{
+    color:white;
+}
+#densities{
+    color:white;
+}
 p{
     color:white;
     font-family: fantasy;
@@ -64,4 +70,14 @@ button{
     display: inline-block;
     font-size: 30px;
     border-radius: 5px;
+}
+.show{
+    display:inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 100%;
+    left: 50%;
+}
+.hide{
+    display:none;
 }
