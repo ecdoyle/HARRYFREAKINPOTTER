@@ -1,5 +1,3 @@
-gryfurl = "http://img09.deviantart.net/ab05/i/2011/197/c/9/gryffindor_flag_by_kooro_sama-d3ud5ym.png";
-slyturl = "http://img13.deviantart.net/6884/i/2013/179/f/6/slytherin_by_brutusthepanda-d6b4u4o.jpg";
 var tags = [];
 var colors = [];
 var colorsrgb = [];
@@ -166,12 +164,12 @@ function hexToRgb(hex) {
 function Redirect(house) {
 
     if (house === 0)
-        window.open("h.html", '_self');
+        window.open("houses/h.html", '_self');
     //window.location = "h.html";
     else if (house === 1)
-        window.open("g.html", '_self');
+        window.open("houses/g.html", '_self');
     else if (house === 2)
-        window.open("s.html", '_self');
+        window.open("houses/s.html", '_self');
     else if (house === 4)
-        window.open("r.html", '_self');
+        window.open("houses.r.html", '_self');
 }
