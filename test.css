@@ -1,7 +1,7 @@
 html {
  background: #000000;
  background-size:100px 100px;
-    
+ cursor: url('Wizard_wand.ico'),default;
 }
 
 #gryffindor{
@@ -9,17 +9,34 @@ html {
     background-size:100px 100px;
 }
 
+#g{
+       background: linear-gradient(315deg,#ae0001,#ae0001 25%,#eeba30 25%, #eeba30 50%,#ae0001 50%,#ae0001 75%,#eeba30 75%);
+        background-size:100px 100px;
+}
+
 #slytherin{
        background: linear-gradient(45deg,#154C07,#154C07 25%,#aaaaaa 25%, #aaaaaa 50%,#154C07 50%,#154C07 75%,#aaaaaa 75%);
     background-size:100px 100px;
 }
+#s{
+    background: linear-gradient(315deg,#154C07,#154C07 25%,#aaaaaa 25%, #aaaaaa 50%,#154C07 50%,#154C07 75%,#aaaaaa 75%);
+    background-size:100px 100px;
+}
 #ravenclaw{
-      background: linear-gradient(45deg,#071A80,#071A80 25%,#5d5d5d 25%, #5d5d5d 50%,#071A80 50%,#071A80 75%,#5d5d5d 75%);
+    background: linear-gradient(45deg,#071A80,#071A80 25%,#5d5d5d 25%, #5d5d5d 50%,#071A80 50%,#071A80 75%,#5d5d5d 75%);
+    background-size:100px 100px;
+}
+#r{
+    background: linear-gradient(315deg,#071A80,#071A80 25%,#5d5d5d 25%, #5d5d5d 50%,#071A80 50%,#071A80 75%,#5d5d5d 75%);
     background-size:100px 100px;
 }
 #hufflepuff{
-       background: linear-gradient(45deg,#F1F31C,#F1F31C 25%,#000000 25%, #000000 50%,#F1F31C 50%,#F1F31C 75%,#000000 75%);
-        background-size:100px 100px;
+    background: linear-gradient(45deg,#F1F31C,#F1F31C 25%,#000000 25%, #000000 50%,#F1F31C 50%,#F1F31C 75%,#000000 75%);
+    background-size:100px 100px;
+}
+#h{
+    background: linear-gradient(315deg,#F1F31C,#F1F31C 25%,#000000 25%, #000000 50%,#F1F31C 50%,#F1F31C 75%,#000000 75%);
+    background-size:100px 100px;
 }
 #header{
     text-align: center;
@@ -37,8 +54,8 @@ h2{
 }
 #song{
     text-align: center;
-    padding: 5px;
-    font-size: 100%;
+    padding: 2px;
+    font-size: 92%;
 }
 #tags{
     color:white;
@@ -56,6 +73,7 @@ p{
     font-family: fantasy;
     float: center;
     text-align: center;
+    font-size: 200%;
 }
 form{
     font-family: fantasy;
@@ -70,6 +88,7 @@ button{
     display: inline-block;
     font-size: 30px;
     border-radius: 5px;
+    cursor: url('Wizard_wand.ico'),default;
 }
 .show{
     display:inline-block;
