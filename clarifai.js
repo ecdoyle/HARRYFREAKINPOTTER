@@ -171,5 +171,5 @@ function Redirect(house) {
     else if (house === 2)
         window.open("houses/s.html", '_self');
     else if (house === 4)
-        window.open("houses.r.html", '_self');
+        window.open("houses/r.html", '_self');
 }
